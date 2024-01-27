@@ -21,8 +21,8 @@ const questions = [
     {
       text: "What is a state in React?",
       options: [
-        { id: 0, text: "A permanent storage.", isCorrect:  true },
-        { id: 1, text: "Internal storage of the component.", isCorrect: false },
+        { id: 0, text: "A permanent storage.", isCorrect:  false },
+        { id: 1, text: "Internal storage of the component.", isCorrect: true },
         { id: 2, text: "External storage of the component.", isCorrect:  false },
         { id: 3, text: "None of the above.", isCorrect:  false },
       ],
@@ -31,9 +31,9 @@ const questions = [
     {
       text: "What is the return value of the useState hook?",
       options: [
-        { id: 0, text: " Pair of current state and function updating it", isCorrect: false },
+        { id: 0, text: " Pair of current state and function updating it", isCorrect: true },
         { id: 1, text: "Current State", isCorrect: false },
-        { id: 2, text: "Function updating the current state", isCorrect: true },
+        { id: 2, text: "Function updating the current state", isCorrect: false },
         { id: 3, text: "UseState returns nothing", isCorrect: false },
       ],
     },
